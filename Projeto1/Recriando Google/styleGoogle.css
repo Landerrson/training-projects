@@ -1,0 +1,66 @@
+/*Estilização para o corpo da página*/
+body{
+    font-family: Arial, sans-serif;
+    background-color: #202124;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+/*Estilização do contêiner central */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+/*Estilização da barra de pesquisa */
+.search-bar{
+    background-color: rgb(90, 89, 89);
+    width: 140%; /*largura da barra*/
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;/*bordas arredondadas*/
+    outline: none;
+    margin-bottom: 30px;/*espaço entre a barra e os botões*/
+}
+ 
+
+/*Estilização da área dos botões*/
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /*espaço entre os botões*/
+}
+
+/*Estilização dos botõe*/
+.search-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: darkgray;
+    background-color: rgb(68, 68, 68);
+    border: none;
+    border-radius: 5px; /*boradas arredondadas*/
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/*Efeito passar o mouse nos botões*/
+.search-button:hover {
+    background-color: #f1f1f1;
+}
+
+.logo {
+    display: block;           /* Garante que a imagem será tratada como um bloco */
+    margin: 0 auto;           /* Centraliza a imagem horizontalmente */
+    width: 350px;             /* Ajusta o tamanho da imagem (largura) */
+    height: auto;             /* Mantém a proporção da imagem */
+    margin-bottom: 20px;      /* Espaço entre a logo e a barra de pesquisa */
+  }

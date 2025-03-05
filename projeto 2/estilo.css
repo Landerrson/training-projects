@@ -1,0 +1,7 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.5)), 
+                url('image.png') no-repeat center center/cover;
+    color: white;
+}

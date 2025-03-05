@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(39, 39, 39);
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+a{
+    color: aqua;
+}
+.link-img-youtube {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
